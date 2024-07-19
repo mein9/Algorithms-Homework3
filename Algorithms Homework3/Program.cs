@@ -25,18 +25,21 @@ namespace Homework3
                 case "1":
                     // bubble Sort
                     BubbleSort(students);
+                    Console.Write("Bubble Sort: ");
                     PrintArray(students);
                     break;
 
                 case "2":
                     // selection sort
                     SelectionSort(students);
+                    Console.Write("Selection Sort: ");
                     PrintArray(students);
                     break;
 
                 case "3":
                     // insertion sort
                     InsertionSort(students);
+                    Console.Write("Insertion Sort: ");
                     PrintArray(students);
                     break;
 
